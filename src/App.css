@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height: 100vh;
+  background-color: #aae9ff;
+}
+.main {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.question {
+  height: 40vh;
+  width: 65vw;
+  line-height: 30px;
+  word-spacing: 3px;
+}
+.question h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+.buttons {
+  width: 12rem;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttons button {
+  width: 5rem;
+  padding: 5px;
+}
